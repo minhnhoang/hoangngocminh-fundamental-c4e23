@@ -1,0 +1,5 @@
+- Checking a variable's type: use built-in type(), which will return the type of the given object.
+- Syntax error due to invalid name could be due to one of the following reasons:
+	+ variable's name starts with a number
+	+ variable's name includes illegal character
+	+ variable's name is a Python keyword
