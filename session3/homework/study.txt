@@ -1,0 +1,2 @@
+1. A nested list is a list within another list.
+2. A list can store both integers and strings in it
