@@ -1,0 +1,26 @@
+1. Why should we use function at all?
+Function helps saving the time, efforts, and possible error of coding the same thing over and over again.
+
+2. How to define/declare a function?
+def func_name(arguments):
+   program statement to be executed
+
+3. How to call/use a function?
+Call a function by writing the function's name with the desired arguments inside the parenthesis.
+A variable can be assigned to hold the returned value of the function.
+
+4. What is return, why and how do we use it?
+Return is the value that the function produces and is kept after the function completes executing.
+Return is used by assigning to a variable to be further worked on.
+
+5. Do we have to use return in every function?
+No. We only use return in the function that we want to keep working with the returned value later on.
+
+6. What are function arguments/parameters, why and how we use it?
+Function arguments/parameters are variable in the function definition and is used to give input data to process the function.
+
+7. How to use function from a different file other than our currently working file?
+Option 1: from file_name import function_name
+Option 2: import file_name
+	  file_name.function_name()
+
