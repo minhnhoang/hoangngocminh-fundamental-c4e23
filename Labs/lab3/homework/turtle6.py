@@ -9,7 +9,7 @@ def draw_star(x,y,length):
 
 speed(0)
 color('blue')
-for i in range(100):
+for i in range(150):
     import random
     x = random.randint(-300, 300)
     y = random.randint(-300, 300)
