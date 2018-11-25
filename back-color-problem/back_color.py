@@ -30,10 +30,11 @@ def get_shapes():
 
 def generate_quiz():
     return [
-                'RED',
-                '#4CAF50',
+                choice(['red','blue','yellow','green']),
+                choice(['#3F51B5', '#C62828', '#FFD600','#4CAF50']),
                 randint(0, 1) # 0 : meaning, 1: color
             ]
 
 def mouse_press(x, y, text, color, quiz_type):
+    
     return True
