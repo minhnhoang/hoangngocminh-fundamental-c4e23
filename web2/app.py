@@ -27,8 +27,8 @@ mlab.connect()
 #     print(r.name, r.city, r.yob, r.height, r.weight, sep='\n')
 
 
-# m = Movie(title="Batman", year=2005, image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Batman_Begins_Poster.jpg/220px-Batman_Begins_Poster.jpg")
-# m.save()
+m = Movie(title="Batman", year=2005, image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Batman_Begins_Poster.jpg/220px-Batman_Begins_Poster.jpg")
+m.save()
 
 # r = Resource(name="Hoang Ngoc Minh", city="Hanoi", yob=1991, height = 160, weight=52)
 # r.save()
@@ -71,6 +71,6 @@ mlab.connect()
 # for r in records:
 #     r.update(set__availability=False)
 
-r = Resource.objects().with_id("5bf80d1ca18b972df81786c8")
-r.update(set__availability=True)
+#r = Resource.objects().with_id("5bf80d1ca18b972df81786c8")
+#r.update(set__availability=True)
 
